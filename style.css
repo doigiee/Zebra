@@ -49,16 +49,68 @@ nav a {
 #hero h1 {
     font-family: "bree serif", serif;
     color: white;
-    margin: 1rem 0;
-    font-size: 2.5rem;
     font-weight: normal;
+    font-size: 2.5rem;
+    margin: 1rem 0;
 }
 
 .button { 
-    font-family: lato, sans-serif;
-    text-decoration: none ;
+  display: inline-block;
+    font-family: Lato, sans-serif;
+    text-decoration: none;
     color: white;
     border: 1px solid white;
     padding: 0.5em 1rem;
 }
  
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  justify-content: space-around;
+
+}
+
+main article {
+  flex: 1;
+  padding:0 1rem;
+}
+
+
+main h2 {
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+main article img {
+width: 100%;
+border-radius: 50%;
+border: 2px solid #898989
+margin-bottom: 1rem;
+}
+
+main article h3 {
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  color: #8980c2;
+
+}
+
+main article p {
+  font-weight: 100;
+  margin: 1rem 0;
+}
+
+.btn-purple {
+  color: #8980c2;
+  border-color:#8980c2
+}
+
+main article a {
+  margin: 1rem 0;
+}
