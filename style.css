@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex; 
+    padding: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+#brand {
+    height: 5vw
+}
+
+
+nav a {
+    font-family: Lato, sans-serif;
+    color: #6a6b6b;
+    text-decoration: none;
+    margin: 0 0.5rem;
+
+
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: url('images/zebra-hero.jpg') teal no-repeat center;
+    background-size: cover;
+}
+
+#hero img {
+    width: 15vw;
+    border-radius: 50%
+}
+
+#hero h1 {
+    font-family: "bree serif", serif;
+    color: white;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.button { 
+    font-family: lato, sans-serif;
+    text-decoration: none ;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5em 1rem;
+}
+ 
