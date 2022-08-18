@@ -114,3 +114,25 @@ main article p {
 main article a {
   margin: 1rem 0;
 }
+
+/*Social Section*/
+
+#social-link {
+  display: flex;
+  justify-content: center;
+}
+
+#social-links div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #8980c2;
+}
+
+#social-links p {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+
